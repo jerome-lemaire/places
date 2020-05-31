@@ -3,9 +3,9 @@
 
 const $input = document.querySelector('#landing-demo');
 const placesAutocomplete = places({
-  appId: 'plFMJJT5O9PC',
-  apiKey: '8b126ce956636c64b6e74c8b3f3d0e5e',
-  container: $input,
+  appId: 'pl679HIFGR8Y',
+  apiKey: '93d2f3ee78ea505d8275d2fde63d205b',
+  container: $input
 });
 $input.style.opacity = 1; // we initially hide the input to avoid size flickering
 

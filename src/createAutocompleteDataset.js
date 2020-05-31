@@ -19,5 +19,6 @@ export default function createAutocompleteDataset(options) {
     displayKey: 'value',
     name: 'places',
     cache: false,
+    debounce: options.debounce,
   };
 }
